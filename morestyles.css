@@ -1,0 +1,43 @@
+/* CSS file: morestyles.css */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the page */
+    background-color: rgb(243, 243, 230);/*  background for contrast */
+    color: black; /* Sets the text color to navy blue */
+    font-size: 18px; /* Sets the base font size */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Limit the width of the container to 80% */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding around the content */
+}
+
+h1, nav, ol {
+    text-align: center; /* Center text for headers, navigation, and lists */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the navigation list */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: navy; /* Set the link color to navy */
+    font-size: 20px; /* Make the font size larger for navigation links */
+}
+
+ol, ul {
+    text-align: left; /* Align list text to the left */
+}
+
+li {
+    margin-bottom: 10px; /* Add space below each list item */
+}
